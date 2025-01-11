@@ -1,6 +1,6 @@
 # Space Shooter
 
-A fun little space shooter game built over the weekend. Play as a spaceship and defeat enemies while trying to beat your high score! 
+A fun little [space shooter](https://sarcastic-soul.github.io/SpaceShooter/) game built over the weekend. Play as a spaceship and defeat enemies while trying to beat your high score! 
 
 ## Features
 - Player spaceship with basic controls
