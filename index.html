@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="score-container">
+        Score: <span id="scoreValue">0</span>
+    </div>
+
+    <div class="modal-overlay" id="start-modal">
+        <div class="modal-content">
+            <h1 class="modal-title">Space Shooter</h1>
+            <button id="startGameBtn" class="start-button pulse-button">
+                Start Game
+            </button>
+            <p class="modal-text description">
+                Click anywhere to shoot
+            </p>
+        </div>
+    </div>
+    <div class="modal-overlay hidden" id="end-modal">
+        <div class="modal-content">
+            <div class="modal-score">0</div>
+            <div class="high-score-container">
+                <span class="modal-text medium-text">High Score: </span>
+                <span id="high-score" class="modal-text">0</span>
+            </div>
+            <div class="modal-text">Game Over</div>
+            <button id="restartGameBtn" class="start-button pulse-button">
+                Restart Game
+            </button>
+        </div>
+    </div>
+
+
+    <canvas></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script type="module" src="src/main.js"></script>
+</body>
+
+</html>
