@@ -12,7 +12,7 @@ A fun little [space shooter](https://sarcastic-soul.github.io/SpaceShooter/) gam
 - HTML5 Canvas for drawing game entities
 
 ## Gameplay
-- Move the spaceship using arrow keys.
+- Tap/Click anywhere on screen to shoot.
 - Shoot to destroy enemies.
 - Survive as long as you can and try to beat your high score!
 
